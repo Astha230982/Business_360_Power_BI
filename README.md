@@ -114,7 +114,7 @@ Understanding data:
 
 It's important to have a good understanding of available data.
 
-available data as follow-
+available data as follow -
 
 Dimension table : It contain the static data.
 
@@ -122,39 +122,16 @@ Fact table : It contain data about the transactions.
 
 gdb041 DB: 
 
---> dim_customer 
-
-- 27 distinct markets (ex India, USA, spain) 
-
-- 75 distinct customers
-
-- 2 types of platforms:
-
-Brick & Motors - Physical/offline store 
-
-E-commerce - Online Store (Amazon, flipkart) 
-
-- Three channels: Retailer, Direct, Distributors 
+--> dim_customer : 
+It contains details of customers i.e 27 distinct markets(ex India, USA), 75 distinct customers, 2 types of platforms(E-commerse, Brick & Motors) , 3 channels (Retailer, Direct, Distributor)
 
 --> dim_market 
 
-- 27 distinct markets (ex India, USA, spain) 
-
-- 7 sub-zones 
-
-- 4 regions: APAC, EU, nan, LATAM 
+This table stores market information 27 distinct market(ex India, Spain), 7 sub-zones, and 4 regions(APAC, EU, NAN, LaTAM) details
 
 --> dim_product 
 
-- Divisions
-
-- P & A : Peripherals, Accessories, PC, Notebook, Desktop
-  
-- N & S : Networking, Storage 
-
-- 14 different categories, Like Internal HDD, keyboard 
-
-- There are different variants available for the same product 
+This tales contains product details such as Divisions (P & A, N & S), Categories, varients
 
 --> fact_forecast_monthly 
 
