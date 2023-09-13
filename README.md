@@ -92,21 +92,21 @@ Lets kick off our project, but before starting the project it's important to und
 
 Questions to ask before starting with dashboard :
 
-objective of building this PowerBi dashboard? 
+  objective of building this PowerBi dashboard? 
 
-success of the project would be based on what criteria? 
+  success of the project would be based on what criteria? 
 
-What's the dead-line of the project? 
+  What's the dead-line of the project? 
 
-do the stakeholders expects pre-view before the actual release? 
+  do the stakeholders expects pre-view before the actual release? 
 
-what are all fears the stakeholder have in terms of building this dashboard? 
+  what are all fears the stakeholder have in terms of building this dashboard? 
 
-Who would be our audience/stakeholder and what role they play in the project success? 
+  Who would be our audience/stakeholder and what role they play in the project success? 
 
-What can go wrong while building this project? 
+  What can go wrong while building this project? 
 
-is there any inputs from stakeholders in terms of design and views of the dashboard? 
+  is there any inputs from stakeholders in terms of design and views of the dashboard? 
 
 After the project kick off meetings, the data engineering team has given the data as per the request of data analytics team, let’s explore them.
 
@@ -120,9 +120,10 @@ Dimension table : It contain the static data.
 
 Fact table : It contain data about the transactions.
 
-gdb041 DB: 
+gdb041 DB: Tables stored in this database as follow:
 
 --> dim_customer : 
+
 It contains details of customers i.e 27 distinct markets(ex India, USA), 75 distinct customers, 2 types of platforms(E-commerse, Brick & Motors) , 3 channels (Retailer, Direct, Distributor)
 
 --> dim_market 
@@ -135,17 +136,15 @@ This tales contains product details such as Divisions (P & A, N & S), Categories
 
 --> fact_forecast_monthly 
 
-This table is used to forecast the customer’s need in advance, which can help in :
-
-Higher customer satisfaction 
-
-Reduced cost in warehouses for storage purpose  
+This table is used to forecast the customer’s need in advance, which can help in Higher customer satisfaction, Reduced cost in warehouses for storage purpose.
 
 --> fact_sales_monthly 
 
 This table is more or less is same as fact_forecase_monthly table, but the last column has the value of sold quantity instead of forecast value. 
 
-gdb056 DB : Following tables this database stores
+
+gdb056 DB :
+Tables stored in this Database as follows: 
 
 --> freight_cost 
 
