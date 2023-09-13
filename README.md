@@ -7,6 +7,7 @@ It's customers spans across the globe and includes renowned companies like Amazo
 
 AtliQ Hardware is currently facing some challenges in Latin America, where they operate their business. Until now, they've been making important decisions based on surveys and instincts.
 However, as the company has grown, they've started collecting more data. They've realized that this data can be incredibly valuable for making better decisions. To make sense of this data, they've decided to hire a Data Analyst. 
+
 The management believes that by analyzing this information, they can make smarter and more accurate choices to improve their business in Latin America. Essentially, they want the Data Analyst to help them turn this wealth of data into actionable insights, ultimately improving their business operations in the region.
 
 Tech stacks:
