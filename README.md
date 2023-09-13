@@ -1,7 +1,7 @@
 # Business_360_Power_BI
 Business Insights 360 data analysis power BI project
 
-Project Overview:
+Project Overview:	
 AtliQ Hardware specializes in manufacturing and distributing a wide range of hardware products including PCs, mouse, printers, and more. 
 It's customers spans across the globe and includes renowned companies like Amazon, Croma, Neptune, Staples, and Walmart.
 
