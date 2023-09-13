@@ -11,30 +11,30 @@ However, as the company has grown, they've started collecting more data. They've
 The management believes that by analyzing this information, they can make smarter and more accurate choices to improve their business in Latin America. Essentially, they want the Data Analyst to help them turn this wealth of data into actionable insights, ultimately improving their business operations in the region.
 
 
-Tech stacks:
+Tech stacks :
 
-SQL
+1. SQL
 
-PowerBi Desktop
+2. PowerBi Desktop
 
-Excel
+3. Excel
 
-DAX language
+4. DAX language
 
-DAX studio (for optimizing the report) 
-
-Project charter file 
+5. DAX studio (for optimizing the report) 
 
 
-PowerBI techniques Learnt:
+Learnings :
 
-What are all the questions should be asked before staring the project 
+1. What questions should be asked before staring the project 
 
-Creating calculated columns 
-creating measure using DAX language 
-Data modeling 
-Using Bookmarks to switch between two visuals 
-Page navigation with buttons 
+2. Creating calculated columns
+ 
+3. creating measure using DAX language
+ 
+4. Data modeling 
+5. Using Bookmarks to switch between two visuals
+6. Page navigation with buttons 
 Using divide function to prevent zero division errors 
 creating date table using m language 
 Dynamic titles based on the applied filters 
